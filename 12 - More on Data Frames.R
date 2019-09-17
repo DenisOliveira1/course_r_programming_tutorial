@@ -9,16 +9,18 @@ tabela$age
 tabela["age"]
 tabela[2]
 
-tabela[3,2] # linha, coluna
+tabela[3,2] # linha, coluna (quando poe um só número faz referencia a coluna)
 tabela[3,1:2]
 tabela[3,]# coluna em branco retorna todas as colunas
 
 #somente vetores podem ser acessados por index x[5]
 
+# IMPORTANTE
 class(tabela$age)# vetor
 class(tabela["age"])# dataframe
 class(tabela[2])# dataframe
 
+# IMPORTANTE
 class(tabela[,"age"])# vetor
 class(tabela[,2])# vetor
 

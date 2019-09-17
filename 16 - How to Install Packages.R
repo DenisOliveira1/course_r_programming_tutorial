@@ -15,3 +15,6 @@ require(XML)
 items = readHTMLTable("https://www.w3schools.com/html/html_tables.asp", which = "1")
 
 #essa package só trabalha com links http e ftp, logo o https da erro
+
+#para improtar a biblioteca tambem pode se usar: 
+#library(nome)
